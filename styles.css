@@ -1,0 +1,2944 @@
+*{
+  
+  margin: 0;
+ 
+ 
+  /* font-family: 'Oswald', sans-serif; */
+}
+  .list{
+    display: flex;
+   padding: 1em;
+   justify-content: center;
+   color: aliceblue;
+   width: 100%;
+   font-family: 'Oswald', sans-serif;
+  }
+  .list li{
+    color: black;
+    list-style: none;
+    margin: 8px;
+   font-size: larger;
+   cursor: pointer;
+  }
+  .list li:hover{
+    transform: scale(1.4);
+    transition-duration: 0.4s;
+   
+  }
+   body{
+    
+    margin: 0; 
+    height: 100%;
+    background-color: rgb(236, 243, 249);
+    overflow-x: hidden;
+  } 
+  /* header{
+   
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgb(0 0 0 / 5%);
+    
+  } */
+  .containernavnike{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgb(0 0 0 / 5%);
+    
+  }
+  .containernav{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgb(0 0 0 / 5%);
+    
+  }
+  
+  .containernav img{
+    position: absolute;
+    right: 35px;
+    height: 32px;
+    top: 5.5px;
+  }
+  .containernav .cart{
+    right: 90px;
+    height: 32px;
+    top: 4.5px;
+  }
+
+ 
+  #background-video{
+   
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+  }
+  #background-video video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    
+  }
+  .video-tile {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+  .searchbox {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .searchbox input{
+    
+    padding-inline-start: 13px;
+    font-size:x-large;
+    border-style:hidden;
+    width: 20vw;
+    height: 30px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+  }
+  .searchbox p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    letter-spacing: 15px;
+  }
+  .containernav img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.2s;
+  }
+
+  #categories {
+    display:flex;
+    flex-flow:wrap;
+    /* justify-content: center; */
+
+    justify-content:space-evenly;
+    
+  }
+  .nlogo {
+    backdrop-filter: blur(10px);
+    background-color: white;
+     margin: 20px;
+     width: 200px;
+     height: 250px;
+     border-radius: 8px;
+     position: relative;
+     
+    }
+    .nlogo:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    
+  }
+  .endcontainer{
+    width: 97%;
+    display: flex;
+    
+    background-color: black;
+   padding: 50px;
+  }
+  .signup{
+    color: aliceblue;
+    padding-left: 23px;
+    padding-top: 1px;
+    margin-left: 10px;
+    padding-right: 28px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .endcontainer p{
+    margin-top: 10px;
+    color: azure;
+    padding-right: 100px;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  .endcontainer img{
+    width: 50px;
+    height: 3rem;
+    margin: 10px;
+  }
+  .endcontainer img:hover{
+    transform: rotate(360deg);
+    transition-duration: 1s;
+    
+  }
+  
+  /* nike pagecss */
+  .nike{
+    display: flex;
+    /* background-color: rgba(177, 179, 182, 0.302); */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xx-large;
+    overflow: hidden;
+   
+font-family: 'Shadows Into Light', cursive;
+  }
+
+  
+  .containernavnike img{
+    position: absolute;
+    right: 53px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavnike img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  /* .containernav .cartnike{
+    right: 60px;
+    height: 82px;
+    top: 4.5px;
+  } */
+  .nikeproducts1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .nikecards{
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background-color:rgb(216, 216, 216) ;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+
+  .imgBx img{
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    width: 270px;
+  }
+  .imgBx1 img{
+    position: absolute;
+    top: 9px;
+    left: -13%;
+    margin: 69px;
+    width: 270px;
+  }
+  .nikeproducts1 .nikecards  .imgBx1 img{
+    transform: rotate(-80deg);
+    transition-duration: 0.8s;
+  }
+  .nikeproducts1 .nikecards  .imgBx1 img:hover{
+    transform: rotate(0deg);
+  }
+ 
+  
+  .contentbx{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+  }
+  .contentbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+ 
+  .nikeproducts1 .nikecards .imgBx img{
+    transform: rotate(-80deg);
+  transition-duration: 0.8s;
+  }
+  .nikeproducts1 .nikecards .imgBx img:hover{
+    transform: rotate(0deg);
+  }
+  .nikeproducts1 .nikecards:hover{
+    transform: scale(0.9);
+  transition-duration: 0.6s;
+  }
+
+  .airmaxtxt{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    color: aliceblue;
+    background-color: black;
+    font-size: x-large;
+    margin-top: 10px;
+    
+  }
+  .airmaxconatiner{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+   width: 104vw;
+    
+  }
+  .airmaxvideo video{
+    object-fit: cover;
+    width: 101vw;
+   height: 50vh;
+  }
+  .airmax97products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: black;
+    /* background-image: linear-gradient(1deg, rgb(252 252 252) 26.8%, rgb(44 106 235) 64%); */
+    width: 107%;
+    height: 57vh;
+  }
+  .airmax97cards{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: rgba(135, 141, 139, 0.299);
+    cursor: pointer;
+  }
+  .airmax97img img{
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    width: 241px;
+  }
+  .airmax97img1 img{
+    position: absolute;
+    top: 1%;
+    left: 9%;
+    width: 241px;
+  }
+  
+  .airmaxcontentbox{
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+  .airmaxcontentbox button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .airmax97img img{
+    transform: rotate(-80deg);
+    transition-duration: 0.8s;
+  }
+  .airmax97img img:hover{
+    transform: rotate(0deg);
+  }
+  .airmax97img1 img{
+    transform: rotate(-80deg);
+    transition-duration: 0.8s;
+  }
+  .airmax97img1 img:hover{
+    transform: rotate(0deg);
+  }
+  .airmax97cards:hover{
+    transform: scale(0.9);
+  transition-duration: 0.6s;
+  }
+  .airjordantxt{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    /* background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% ); */
+    height: 8vh;
+    font-size: x-large;
+    color: aliceblue;
+  }
+  .nikeproducts2{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+  }
+  .nikeproducts2card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background-color:rgb(216, 216, 216) ;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .nikeproducts2card:hover{
+    transform: scale(0.9);
+  transition-duration: 0.6s;
+  }
+  .nikeproducts2img img{
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    width: 270px;
+  }
+  .nikeproducts2img img{
+    transform: rotate(-80deg);
+    transition-duration: 0.8s;
+
+  }
+  .nikeproducts2img img:hover{
+    transform: rotate(0deg);
+  }
+  .nikeproducts2contentbx{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .nikeproducts2contentbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .airjordancontainer{
+    display: flex;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    height: 60vh;
+    /* background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% ); */
+
+  }
+  .airjordanvideo video{
+    object-fit: cover;
+    width: 55vw;
+   height: 50vh;
+   position: relative;
+   left: 20px;
+   border-radius: 13px;
+   border: none;
+
+  }
+  .airjordancard{
+    left: 200px;
+    position: relative;
+    width: 300px;
+    /* background-image: linear-gradient( 1deg, rgb(255 0 0 / 82%) 26.8%, rgb(59 98 255 / 76%) 64% ); */
+    background-image: linear-gradient(1deg, rgb(252 252 252) 26.8%, rgb(44 106 235) 64%);
+    height: 380px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .airjordancard:hover{
+    transform: scale(0.9);
+    transition-duration: 0.6s;
+  }
+  .airjordanimg img{
+    width: 200px;
+    top: 22%;
+    left: 18%;
+    position: absolute;
+   
+  }
+  .airjordancontentbx{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0;
+  }
+  .airjordancontentbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .airjordanimg img:hover{
+
+    transform: scale(1.9);
+    transition-duration: 0.4s;
+  }
+  .lebrontxt{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+ 
+  }
+  .lebronproduct{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    height: 60vh;
+    flex-wrap: wrap;
+    /* position: relative; */
+  
+  }
+  .lebronproduct img{
+    position: absolute;
+    width: 50vw;
+    left: 40px;
+    
+  }
+ 
+  .lebronproductcard{
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background-color: rgb(224, 224, 224);
+    right: 170px;
+    top: 30px;
+  border-radius: 9px;
+  cursor: pointer;
+  }
+  .lebronproductcard:hover{
+    transform: scale(0.9);
+  transition-duration: 0.6s;
+  }
+  .lebronproductimg img{
+    position: absolute;
+    width: 200px;
+    top: 10%;
+    left: 18%;
+   
+  }
+  .lebronproductimg img{
+    transform: rotate(-80deg);
+    transition-duration: 0.8s;
+  }
+  .lebronproductimg img:hover{
+    transform: rotate(0deg);
+
+  }
+
+  .lebroncontbx{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+    height: 100px;
+  }
+  .lebroncontbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .nikeproducts3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .nikeproducts3card{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background-color:rgb(216, 216, 216) ;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .nikeproducts3card:hover{
+    transform: scale(0.9);
+    transition-duration: 0.6s;
+  }
+  .nikeproductsimg img{
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    width: 270px;
+    transform: rotate(-80deg);
+    transition-duration: 0.6s;
+  }
+  .nikeproductsimg img:hover{
+    transform: rotate(0deg);
+  }
+  .nike3contentbx{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+  .nike3contentbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .vaporcontainer{
+    display: flex;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    height: 80vh;
+
+
+  }
+  .vaporvideo video{
+    object-fit: cover;
+    width: 55vw;
+   height: 50vh;
+   position: relative;
+   left: 20px;
+   border-radius: 13px;
+   border: none;
+   top: 21px;
+
+  }
+  .vaporcard{
+   
+    left: 200px;
+    position: relative;
+    width: 300px;
+    background-image: linear-gradient(360deg, rgb(82 82 82) 26.8%, rgb(0 0 0) 64%);
+    height: 380px;
+    border-radius: 8px;
+    cursor: pointer;
+    top: 21px;
+  }
+  .vaporcard:hover{
+    transform: scale(0.9);
+    transition-duration: 0.6s;
+  }
+  .vaporimg img{
+    width: 250px;
+    /* top: 1%; */
+    bottom: 22%;
+    left: 10%;
+    position: absolute;
+   
+  }
+  .vaporcontentbx{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0;
+  }
+  .vaporcontentbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .vaporimg img:hover{
+   
+    transform: scale(1.9);
+    transition-duration: 0.4s;
+  }
+  .containernavadidas{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgb(0 0 0 / 5%);
+  }
+  
+  .containernavadidas img{
+    position: absolute;
+    right: 48px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavadidas img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  .Adidas{
+    display: flex;
+    /* background-color: rgba(177, 179, 182, 0.302); */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xxx-large;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .videocontaineradidas1{
+    display: flex;
+    width: 100vw;
+    height: 81vh;
+  }
+  .adidasvideo1 video{
+    object-fit: cover;
+    width: 100vw;
+   height: 80vh;
+   position: absolute;
+   left: 0px;
+   /* border-radius: 13px; */
+   border: none;
+  }
+ 
+  
+  .adidascard{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: rgba(135, 141, 139, 0.299);
+    cursor: pointer;
+    left: 73%;
+    top: 13%;
+    
+  }
+  .adidasimgbx img{
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    width: 270px;
+    transform: rotate(0deg);
+    transition-duration: 0.6s;
+  }
+  .adidasimgbx img:hover{
+    transform: scale(1.5);
+
+
+  }
+  .adidasogcntnbx{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 11px;
+    font-size: large;
+    font-family: 'Shadows Into Light', cursive;
+    
+  }
+  .adidasogcntnbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .adidasproduct1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 55vh;
+    background-image: linear-gradient(178deg, rgb(212 243 242) 11.2%, rgb(110, 123, 251) 91.1%);
+    color: aliceblue;
+  }
+  .adidasprocard1{
+    cursor: pointer;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    transition-duration: 0.6s;
+    border: 1px solid;
+  }
+  .adidasimgbox1 img{
+    position: absolute;
+    width: 280px;
+    top: 5%;
+    left: 5%;
+    transition-duration: 0.1s;
+  }
+  .adidasimgbox1 img:hover{
+   transform: rotate(30deg);
+  }
+  .adidasprocard1:hover{
+    transform:scale(0.9);
+    background-color: rgba(93, 99, 99, 0.478);
+  }
+  .adidaspro1cntnbx{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 5px;
+  }
+  .adidaspro1cntnbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .adidasproducts2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 55vh;
+    flex-wrap: wrap;
+    background-image: linear-gradient(358deg, rgb(212 243 242) 11.2%, rgb(110, 123, 251) 91.1%);
+
+  }
+  .adidascard2{
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    border: 1px solid white;
+  }
+  .adidasimgbx2 img{
+    position: absolute;
+    width: 280px;
+    top: 5%;
+    left: 5%;
+    transition-duration: 0.1s;
+  }
+  .adidasimgbx2 img:hover{
+    transform: rotate(30deg);
+  }
+  .adidascard2:hover{
+    transform:scale(0.9);
+    background-color: rgba(93, 99, 99, 0.478);
+  }
+  .adidascntnbx2{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 5px;
+    color: aliceblue;
+  }
+  .adidascntnbx2 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .predatorcontainer{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+  }
+  .predatorvideo video{
+    object-fit: cover;
+    width: 100vw;
+   height: 80vh;
+   position: absolute;
+   left: 0px;
+   /* border-radius: 13px; */
+   border: none;
+  }
+  .predatorcard{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    background-color: rgba(135, 141, 139, 0.299);
+    cursor: pointer;
+    left: 73%;
+    top: 13%;
+    transition-duration: 0.3s;
+    
+  }
+  .predatorcard:hover{
+    transform: scale(0.9);
+  }
+  .predatorimgbx img{
+    position: absolute;
+    top: 9%;
+    left: 4%;
+    width: 270px;
+    transform: rotate(30deg);
+    transition-duration: 0.6s;
+  }
+  .predatorimgbx img:hover{
+    transform: scale(1.8);
+  }
+  .predatorcntnbx{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 11px;
+    font-size: large;
+    font-family: 'Shadows Into Light', cursive;
+    
+  }
+  .predatorcntnbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .containernavrebook{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgb(0 0 0 / 5%);
+  }
+  
+  .containernavrebook img{
+    position: absolute;
+    right: 48px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavrebook img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  .rebook{
+    display: flex;
+    /* background-color: rgba(177, 179, 182, 0.302); */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xxx-large;
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .reebokproducts1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 55vh;
+    flex-wrap: wrap;
+   
+
+  }
+  .reebokcards1{
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    background-color: rgb(0 0 0 / 16%);
+   
+    
+  }
+  .rebookimgbx1 img{
+    position: absolute;
+    width: 280px;
+    top: 5%;
+    left: 5%;
+    transition-duration: 0.1s;
+    transform: scale(1.2);
+  }
+  .rebookimgbx1 img:hover{
+    transform: scale(0.8);
+  }
+  .reebokcards1:hover{
+    /* transform: rotate(0deg); */
+    transform: rotate(5deg);
+
+  }
+
+  
+  .reebookcntnbx1{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 5px;
+    
+  }
+  .reebookcntnbx1 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .reebokproducts2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 55vh;
+    flex-wrap: wrap;
+   
+
+  }
+  .reebokcards2{
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    background-color: rgb(0 0 0 / 16%);
+   
+    
+  }
+  .rebookimgbx2 img{
+    position: absolute;
+    width: 280px;
+    top: 5%;
+    left: 5%;
+    transition-duration: 0.1s;
+    transform: scale(1.2);
+  }
+  .rebookimgbx2 img:hover{
+    transform: scale(0.8);
+  }
+  .reebokcards2:hover{
+    /* transform: rotate(0deg); */
+    transform: rotate(5deg);
+
+  }  
+  .reebookcntnbx2{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 5px;
+    
+  }
+  .reebookcntnbx2 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .planttxt{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(http://1.bp.blogspot.com/-JWVmPqzAzuE/TkYhlUb3iHI/AAAAAAAABz4/K37GdfV8f3E/s1600/wallpapers_jungle_hd_wallpapers.jpg) center;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    color: white;
+
+  }
+  .plantcontainer{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    background-image: linear-gradient( 359deg, rgb(21 21 23) 11.2%, rgb(60 98 17) 91.1% );
+  
+
+  }
+  .plantvideo video{
+    object-fit: cover;
+    width: 55vw;
+   height: 50vh;
+   position: relative;
+   left: 20px;
+   border-radius: 13px;
+   border: none;
+   top: 8%;
+
+  }
+  .plantcard{
+    left: 200px;
+    position: relative;
+    width: 300px;
+    height: 380px;
+    border-radius: 8px;
+    cursor: pointer;
+    top: 8%;
+    transition-duration: 0.5s;
+  }
+  .plantcard:hover{
+    background-image: linear-gradient(1deg, rgb(119 145 60) 26.8%, rgb(46 235 44 / 13%) 64%);
+    transform: scale(0.9);
+    
+  }
+  .plantimg img{
+    width: 245px;
+    top: 2%;
+    left: 13%;
+    position: absolute;
+   
+  }
+  .plantcontentbx{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: aliceblue;
+    bottom: 0;
+  }
+  .plantcontentbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  .plantimg img:hover{
+
+    transform: scale(1.9);
+    transition-duration: 0.4s;
+  }
+  .containernavarmour{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgba(0, 0, 0, 0.212);
+  }
+  
+  .containernavarmour img{
+    position: absolute;
+    right: 48px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavarmour img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  .armour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xxx-large;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    
+  }
+  .armourvideocontainer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    
+  }
+  .armourvideo video{
+    border-radius: 13px;
+   object-fit: cover;
+  }
+  .armourproduct1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 55vh;
+    flex-wrap: wrap;
+  }
+  .armourcard1{
+    top: 10px;
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    background-color: rgb(0, 0, 0);
+    
+  }
+  #lorange:hover{
+    transform: scale(0.8);
+    background-color: rgb(220, 155, 58);
+  }
+  #lblue:hover{
+    transform: scale(0.8);
+    background-color: rgb(70, 197, 240);
+  }
+  #lred:hover{
+    transform: scale(0.8);
+    background-color: rgb(255, 72, 72);
+  }
+  #lwhite:hover{
+    transform: scale(0.8);
+    background-color: rgb(2 179 150);
+  }
+  .armourimgbx1 img{
+    position: absolute;
+    width: 280px;
+    top: 5%;
+    left: 5%;
+    transition-duration: 0.4s;
+  }
+  .armourimgbx1 img:hover{
+    transform: scale(1.2);
+  }
+  
+  .armourcntnbx{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0px;
+    
+  }
+  .armourcntnbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .flow{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font: 30%;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+  }
+  .flowcontainer{
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    width: 100vw;
+    
+  }
+  .flowvideo video{
+    width: 50vw;
+    height: 70vh;
+    object-fit: cover;
+   border-radius:8px ;
+   left: 20%;
+  }
+  .flowcard{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    left: 20%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+  }
+  .flowcard:hover{
+    transform: scale(0.9);
+  }
+  .flowimgbx img{
+    position: absolute;
+    width: 300px;
+    top: 0%;
+    left: 2%;
+    transition-duration: 0.4s;
+  }
+  .flowimgbx img:hover{
+    transform: rotate(-30deg);
+  }
+
+  .flowcntnbx{
+     position:absolute;
+     width: 100%;
+     height: 100px;
+     bottom: 0%;
+     text-align: center;
+     font-family: 'Oswald', sans-serif;
+     background-color:rgba(80, 75, 75, 0.47);
+     border-radius: 5px;
+  }
+  .flowcntnbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+
+  .armourproduct2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 55vh;
+    flex-wrap: wrap;
+  }
+  .armourcard2{
+    top: 10px;
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    background-color: rgb(0, 0, 0);
+    
+  }
+  #ldpink:hover{
+    transform: scale(0.8);
+    background-color: rgb(72 18 66);
+  }
+  #llitorange:hover{
+    transform: scale(0.8);
+    background-color: rgb(220 126 20);
+  }
+  #lpink:hover{
+    transform: scale(0.8);
+    background-color: rgb(236 89 171);
+  }
+  #lneon:hover{
+    transform: scale(0.8);
+    background-color: rgb(172 219 121);
+  }
+  .armourimgbx2 img{
+    position: absolute;
+    width: 280px;
+    top: 5%;
+    left: 5%;
+    transition-duration: 0.4s;
+  }
+  .armourimgbx2 img:hover{
+    transform: scale(1.2);
+  }
+  
+  .armourcntnbx2{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0px;
+    
+  }
+  .armourcntnbx2 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .containernavzara{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgb(0 0 0 / 5%);
+  }
+  
+  .containernavzara img{
+    position: absolute;
+    right: 48px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavzara img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  .Zara{
+    display: flex;
+    /* background-color: rgba(177, 179, 182, 0.302); */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xxx-large;
+    font-family: 'Oswald', sans-serif;
+  }
+  .zaraproduct1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 55vh;
+    flex-wrap: wrap;
+  }
+  .zaracard1{
+    top: 10px;
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    background-color: rgba(90, 90, 90, 0.226);
+    
+  }
+
+  .zaracard1:hover{
+    transform: scale(0.9);
+  }
+
+  .zaraimgbx1 img{
+    position: absolute;
+    width: 280px;
+    bottom: 1%;
+    left: 5%;
+    transition-duration: 0.4s;
+  }
+  .zaraimgbx1 img:hover{
+    top: -20%;
+    transform: scale(0.9);  
+  }
+ 
+  
+  .zaracntnbx1{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0px;
+    
+  }
+  .zaracntnbx1 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+
+  .zaraproduct2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    flex-wrap: wrap;
+  }
+  .zaracard2{
+    top: 10px;
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    background-color: rgba(90, 90, 90, 0.226);
+    
+  }
+
+  .zaracard2:hover{
+    transform: scale(0.9);
+  }
+
+  .zaraimgbx2 img{
+    position: absolute;
+    width: 280px;
+    bottom: 1%;
+    left: 5%;
+    transition-duration: 0.4s;
+  }
+  .zaraimgbx2 img:hover{
+    top: -20%;
+    transform: scale(0.9);  
+  }
+ 
+  
+  .zaracntnbx2{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0px;
+    
+  }
+  .zaracntnbx2 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .contrastcontainer{
+    display: flex;
+    justify-content: center;
+  }
+  .contrastimg img{
+    width: 25vw;
+   position: relative;
+  }
+  .contrastcard{
+    position: relative;
+    background-color: black;
+    width: 400px;
+    height: 575px;
+    cursor: pointer;
+    transition-duration: 0,9s;
+    
+  }
+  .contrastcard:hover{
+    background-color: #95bbd2;
+  }
+  .contrastimgbx img{
+    position: absolute;
+    width: 350px;
+    bottom: 20%;
+    left: 14%;
+    transform: rotate(20deg);
+    transition-duration: 0.5s;
+  }
+  .contrastimgbx img:hover{
+    transform: rotate(0deg);
+  }
+
+  .contrascntnbx{
+  position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 10%;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  .contrascntnbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .zaraproduct3{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60vh;
+    flex-wrap: wrap;
+  }
+  .zaracard3{
+    top: 10px;
+    cursor: pointer;
+   position: relative;
+   width: 300px;
+   height: 400px;
+   border-radius: 8px;
+    transition-duration: 0.6s;
+    background-color: rgba(90, 90, 90, 0.226);
+    
+  }
+
+  .zaracard3:hover{
+    transform: scale(0.9);
+  }
+
+  .zaraimgbx3 img{
+    position: absolute;
+    width: 280px;
+    bottom: 1%;
+    left: 5%;
+    transition-duration: 0.4s;
+  }
+  .zaraimgbx3 img:hover{
+    top: -20%;
+    transform: scale(0.9);  
+  }
+ 
+  
+  .zaracntnbx3{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0px;
+    
+  }
+  .zaracntnbx3 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .containernavfila{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgb(0 0 0 / 5%);
+  }
+  
+  .containernavfila img{
+    position: absolute;
+    right: 48px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavfila img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  .Fila{
+    display: flex;
+    /* background-color: rgba(177, 179, 182, 0.302); */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xxx-large;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .filavideocontainer{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .filavideo video{
+    object-fit: cover;
+    height: 50vh;
+    width: 98vw;
+   
+  }
+  .filaproducts1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .filacard1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.6s;
+  }
+  .filacard1:hover{
+    transform: scale(0.8);
+  }
+  .filaimgbx1 img{
+    position: absolute;
+    width: 300px;
+    bottom: 10%;
+    transition-duration: 0.6s;
+  }
+  .filaimgbx1 img:hover{
+    transform: scale(1.2);
+  }
+  #fblue:hover{
+    background-color: rgb(31 101 192);
+  }
+  #flblue:hover{
+    background: #43b2cd;
+  }
+  #fred:hover{
+    background: rgb(171 18 29);
+  }
+  #forange:hover{
+    background: rgb(248 157 8);
+  }
+  .filacntnbx1{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .filacntnbx1 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+
+
+  .filaproducts2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .filacard2{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.6s;
+  }
+  .filacard2:hover{
+    transform: scale(0.8);
+  }
+  .filaimgbx2 img{
+    position: absolute;
+    width: 300px;
+    bottom: 10%;
+    transition-duration: 0.6s;
+  }
+  .filaimgbx2 img:hover{
+    transform: scale(1.2);
+  }
+  #fyellow:hover{
+   background: #eea601;
+  }
+  #fgold:hover{
+    background: #ce9f44;
+  }
+  #fred1:hover{
+    background: #a81418;
+  }
+  #fwblue:hover{
+    background: #98bad6;
+  }
+  .filacntnbx2{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .filacntnbx2 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+
+  .filaproducts3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .filacard3{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.6s;
+  }
+  .filacard3:hover{
+    transform: scale(0.8);
+  }
+  .filaimgbx3 img{
+    position: absolute;
+    width: 300px;
+    bottom: 10%;
+    transition-duration: 0.6s;
+  }
+  .filaimgbx3 img:hover{
+    transform: scale(1.2);
+  }
+  #fdblue:hover{
+    background: #36456e;
+  }
+  #flgreen:hover{
+    background: #9fc809;
+  }
+  #fml:hover{
+    background: #e6841e;
+   
+  }
+  #fwnb:hover{
+    background: #dec30e;
+  }
+  .filacntnbx3{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .filacntnbx3 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+  }
+  .containernavpuma{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgba(130, 127, 127, 0.26);
+  }
+  
+  .containernavpuma img{
+    position: absolute;
+    right: 48px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavpuma img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  .Puma{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xxx-large;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    
+  }
+  .futurevideocontainer{
+    display: flex;
+  background-color: black;
+  
+  }
+  .futurevideo video{
+    object-fit: cover;
+    width: 50vw;
+   height: 82vh;
+  }
+ 
+    .comgsonbt button {
+      position: absolute;
+      left: 67%;
+      bottom: 40%;
+      height: 9vh;
+      width: 20vw;
+      font-size: xx-large;
+      background-color: #36456e00;
+      border: white;
+      color: white;
+      transition-duration: 0.6s;
+      cursor: pointer;
+   
+  }
+  .comgsonbt button:hover{
+    border: 2px solid;
+    background-color: white;
+    color: black;
+  }
+  .pumaproduct1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 57vh;
+    background-color: black;
+  }
+  .pumacard1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff25;
+    border-radius: 0px 21px 0px 21px;
+    top: 10px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+  }
+  .pumaimgbx1 img{
+    position: absolute;
+    width: 300px;
+    top: 0%;
+    transition-duration: 0.3s;
+  }
+  .pumaimgbx1 img:hover{
+    transform: scale(1.4)rotate(-30deg);
+  }
+  .pumacard1:hover{
+    transform: scale(0.9);
+  }
+  .pumcntnbx1{
+    position: absolute;
+    bottom: 0;
+    text-align:center ;
+    width: 100%;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    color: antiquewhite;
+  }
+  .pumcntnbx1 button{
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    color: black;
+  }
+  .pumaproduct2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 57vh;
+    background-color: black;
+  }
+  .pumacard2{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff25;
+    border-radius: 0px 21px 0px 21px;
+    top: 10px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+  }
+  .pumaimgbx2 img{
+    position: absolute;
+    width: 300px;
+    top: 0%;
+    transition-duration: 0.3s;
+  }
+  .pumaimgbx2 img:hover{
+    transform: scale(1.4)rotate(-30deg);
+  }
+  .pumacard2:hover{
+    transform: scale(0.9);
+  }
+  .pumcntnbx2{
+    position: absolute;
+    bottom: 0;
+    text-align:center ;
+    width: 100%;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    color: antiquewhite;
+  }
+  .pumcntnbx2 button{
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    color: black;
+  }
+
+  .future13container{
+    display: flex;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    height: 80vh;
+
+
+  }
+  .future13video video{
+    object-fit: cover;
+    width: 55vw;
+   height: 50vh;
+   position: relative;
+   left: 20px;
+   border-radius: 13px;
+   border: none;
+   top: 78px;
+
+  }
+  .future13card{
+   
+    left: 200px;
+    position: relative;
+    width: 300px;
+    background-image: linear-gradient(360deg, rgb(252 105 67) 26.8%, rgb(0 0 0) 64%);
+    height: 380px;
+    border-radius: 8px;
+    cursor: pointer;
+    top: 78px;
+  }
+  .future13card:hover{
+    transform: scale(0.9);
+    transition-duration: 0.6s;
+  }
+  .future13img img{
+    width: 250px;
+    /* top: 1%; */
+    bottom: 22%;
+    left: 10%;
+    position: absolute;
+   
+  }
+  .future13contentbx{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    bottom: 0;
+  }
+  .future13contentbx button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+  }
+  .future13img img:hover{
+   
+    transform: scale(1.9);
+    transition-duration: 0.4s;
+  }
+  .containernavversa{
+    height: 10px;
+    width:100%;
+    padding:15px;
+    z-index:1;
+    background-color: rgba(130, 127, 127, 0.26);
+  }
+  
+  .containernavversa img{
+    position: absolute;
+    right: 48px;
+    height: 32px;
+    top: 4.5px;
+  }
+  .containernavversa img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.6s;
+  }
+  .Versa{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    font-size:xxx-large;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+  }
+  .versaceproduct1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 60vh;
+  }
+  .versacecard1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #cbcbcb;
+    border-radius: 8px;
+
+  }
+  #vblack:hover{
+    background-color: #000000;
+    color: white;
+  }
+  #vwblue:hover{
+    background-color: #44aeff;
+  }
+  #vvblue:hover{
+    background-color: #2734eb;
+  }
+  #vvgold:hover{
+    background-color: #a3875d;
+  }
+  .versaceimgbx1 img{
+    position: absolute;
+    width: 300px;
+    bottom: 10%;
+    transition-duration: 0.5s;
+  }
+  .versaceimgbx1 img:hover{
+    transform: rotate(39deg);
+  }
+  .versacecntnbx1{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    text-align: center;
+  }
+  .versacecntnbx1 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+
+  }
+
+
+  .versaceproduct2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 60vh;
+  }
+  .versacecard2{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background-color: #cbcbcb;
+    border-radius: 8px;
+
+  }
+  #vgreen:hover{
+    background-color: #a6cc46;
+  }
+  #vorange:hover{
+    background-color: #e34a33;
+  }
+  #vpink:hover{
+    background-color: #c9457a;
+  }
+  #vgold:hover{
+    background-color: #a3875d;
+  }
+  .versaceimgbx2 img{
+    position: absolute;
+    width: 300px;
+    bottom: 10%;
+    transition-duration: 0.5s;
+  }
+  .versaceimgbx2 img:hover{
+    transform: rotate(39deg);
+  }
+  .versacecntnbx2{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    text-align: center;
+  }
+  .versacecntnbx2 button{
+    border: none;
+    border-radius: 5px;
+    width: 92px;
+    height: 30px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* responsive */
+   @media(max-width:600px) {
+    .containernavnike img {
+      position: absolute;
+      right: 17px;
+      height: 32px;
+      top: 25.5px;
+  }
+  .imgBx img {
+    position: absolute;
+    top: 0%;
+    left: 4%;
+    width: 130px;
+}
+  .imgBx1 img {
+    position: absolute;
+    top: -19%;
+    left: -31%;
+    width: 130px;
+}
+.nikecards {
+  position: relative;
+  width: 183px;
+  height: 263px;
+  background-color: rgb(216, 216, 216);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.contentbx {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  font-size: x-small;
+}
+.airmax97cards {
+  position: relative;
+  width: 183px;
+  height: 263px;
+  border-radius: 8px;
+  background-color: rgba(135, 141, 139, 0.299);
+  cursor: pointer;
+ right: 13px;
+  margin-bottom: 10px;
+}
+.airmax97products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: black;
+  /* background-image: linear-gradient(1deg, rgb(252 252 252) 26.8%, rgb(44 106 235) 64%); */
+  width: 107%;
+  height: 67vh;
+}
+.airmax97img img {
+  position: absolute;
+  top: 1%;
+  left: 9%;
+  width: 130px;
+}
+.airmax97img1 img {
+  position: absolute;
+  top: 1%;
+  left: 9%;
+  width: 130px;
+}
+.nikeproducts2card{
+  position: relative;
+  width: 183px;
+  height: 263px;
+  border-radius: 8px;
+  background-color: rgba(135, 141, 139, 0.299);
+  cursor: pointer;
+ right: 0px;
+  margin-bottom: 10px;
+}
+.nikeproducts2img img{
+  position: absolute;
+  top: 0%;
+  left: 4%;
+  width: 130px;
+}
+.airjordancard {
+  left: 202px;
+  position: relative;
+  width: 183px;
+  /* background-image: linear-gradient( 1deg, rgb(255 0 0 / 82%) 26.8%, rgb(59 98 255 / 76%) 64% ); */
+  background-image: linear-gradient(1deg, rgb(252 252 252) 26.8%, rgb(44 106 235) 64%);
+  height: 263px;
+  border-radius: 8px;
+  cursor: pointer;
+  bottom: 69%;
+  } 
+  .airjordanvideo video {
+    object-fit: cover;
+    width: 61vw;
+    height: 50vh;
+    position: relative;
+    left: 5px;
+    border-radius: 13px;
+    border: none;
+}
+.airjordancontainer {
+  display: flex;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  height: 60vh;
+  /* background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% ); */
+}
+
+.airjordancard {
+    left: 3px;
+    position: relative;
+    width: 201px;
+    /* background-image: linear-gradient( 1deg, rgb(255 0 0 / 82%) 26.8%, rgb(59 98 255 / 76%) 64% ); */
+    background-image: linear-gradient(1deg, rgb(252 252 252) 26.8%, rgb(44 106 235) 64%);
+    height: 227px;
+    border-radius: 8px;
+    cursor: pointer;
+    top: 19%;
+}
+.airjordanimg img {
+  width: 116px;
+  top: 6%;
+  left: 17%;
+  position: absolute;
+}
+.airjordancontentbx {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  bottom: -21px;
+  font-size: xx-small;
+  /* color: white; */
+}
+.lebronproductcard {
+  position: relative;
+  width: 183px;
+  height: 263px;
+  background-color: rgb(224, 224, 224);
+  right: 95px;
+  top: 235px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.lebronproduct img {
+  position: absolute;
+  width: 102vw;
+  left: 0px;
+}
+.lebronproductimg img {
+  position: absolute;
+  width: 130px;
+  top: 0%;
+  left: 12%;
+}
+.nikeproducts3card{
+  position: relative;
+  width: 183px;
+  height: 263px;
+  border-radius: 8px;
+  background-color: rgba(135, 141, 139, 0.299);
+  cursor: pointer;
+ right: 0px;
+  margin-bottom: 10px;
+}
+.nikeproductsimg img{
+  position: absolute;
+  top: 0%;
+  left: 4%;
+  width: 130px;
+}
+.vaporcontainer {
+  display: flex;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+  height: 65vh;
+}
+.vaporcontentbx button {
+  border: none;
+  border-radius: 5px;
+  width: 92px;
+  height: 30px;
+  background-color: black;
+  color: antiquewhite;
+}
+.vaporimg img {
+  width: 142px;
+  top: -6%;
+  bottom: 22%;
+  left: 5%;
+  position: absolute;
+}
+.vaporvideo video {
+  object-fit: cover;
+  width: 55vw;
+  height: 50vh;
+  position: relative;
+  left: 4px;
+  border-radius: 13px;
+  border: none;
+  top: 21px;
+}
+.vaporcard {
+  left: 4px;
+  position: relative;
+  width: 183px;
+  background-image: linear-gradient(360deg, rgb(82 82 82) 26.8%, rgb(0 0 0) 64%);
+  height: 263px;
+  border-radius: 8px;
+  cursor: pointer;
+  top: 133px;
+}
+.vaporcontentbx {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  bottom: 0;
+  color: antiquewhite;
+}
+.endcontainer img {
+  width: 50px;
+  height: 3rem;
+  margin: 7px;
+  position: relative;
+  right: 125%;
+  top: 57%;
+  
+  
+}
+.endcontainer {
+  width: 100%;
+  display: flex;
+  background-color: black;
+  /* padding: 50px; */
+}
+.signup {
+  color: aliceblue;
+  padding-left: 0px;
+  padding-top: 11px;
+  margin-left: -38px;
+  padding-right: 22px;
+}
+.containernav {
+  height: 10px;
+  width: 101%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 5%);
+}
+.containernav img {
+  position: absolute;
+
+  height: 32px;
+  top: 5.5px;
+  left: 86%;
+}
+.containernav .cart {
+ 
+  height: 32px;
+  top: 4.5px;
+  left: 77%;
+}
+.searchbox input {
+  padding-inline-start: 13px;
+  font-size: x-large;
+  border-style: hidden;
+  width: 55vw;
+  height: 30px;
+  border-radius: 20px;
+  /* border: 2px solid red; */
+}
+#background-video video {
+  position: absolute;
+  width: 96%;
+  height: 90%;
+  top: 0;
+  left: 7px;
+  object-fit: cover;
+}
+.nlogo {
+  backdrop-filter: blur(10px);
+  background-color: white;
+  margin: 9px;
+  width: 166px;
+  height: 203px;
+  border-radius: 8px;
+  left: 117px;
+  position: relative;
+}
+.containernavadidas {
+  height: 10px;
+  width: 142%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 5%);
+}
+.containernavadidas img {
+  position: absolute;
+  height: 32px;
+  top: 4.5px;
+  left: 117%;
+}
+.adidasvideo1 video {
+  object-fit: cover;
+  width: 119vw;
+  height: 80vh;
+  position: absolute;
+  left: 49px;
+  border: none;
+  border-radius: 8px;
+}
+.adidascard {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  background-color: rgba(135, 141, 139, 0.299);
+  cursor: pointer;
+  left: 80%;
+  top: 30%;
+}
+.adidasproduct1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 74vh;
+  background-image: linear-gradient(178deg, rgb(212 243 242) 11.2%, rgb(110, 123, 251) 91.1%);
+  color: aliceblue;
+  width: 148vw;
+}
+.adidasproducts2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 75vh;
+  flex-wrap: wrap;
+  background-image: linear-gradient(358deg, rgb(212 243 242) 11.2%, rgb(110, 123, 251) 91.1%);
+  width: 149vw;
+}
+.Adidas {
+  display: flex;
+  /* background-color: rgba(177, 179, 182, 0.302); */
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 139vw;
+  font-size: xxx-large;
+  font-family: 'Shadows Into Light', cursive;
+}
+.predatorcard {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+  background-color: rgba(135, 141, 139, 0.299);
+  cursor: pointer;
+  left: 73%;
+  top: 28%;
+  transition-duration: 0.3s;
+}
+.predatorvideo video {
+  object-fit: cover;
+  width: 127vw;
+  height: 80vh;
+  position: absolute;
+  left: 0px;
+  /* border-radius: 13px; */
+  border: none;
+}
+.rebook {
+  display: flex;
+  /* background-color: rgba(177, 179, 182, 0.302); */
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-size: xxx-large;
+  font-family: 'Shadows Into Light', cursive;
+  width: 131vw;
+}
+.containernavrebook {
+  height: 10px;
+  width: 123%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 5%);
+}
+.containernavrebook img {
+  position: absolute;
+  height: 32px;
+  top: 4.5px;
+  left: 116%;
+}
+.reebokproducts1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 63vh;
+  flex-wrap: wrap;
+  width: 133vw;
+}
+.reebokproducts2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 63vh;
+  flex-wrap: wrap;
+  width: 133vw;
+}
+
+.plantcard {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  border-radius: 8px;
+  cursor: pointer;
+  top: 45%;
+  transition-duration: 0.5s;
+  left: -11%;
+}
+.plantcontainer {
+  display: flex;
+  width: 130vw;
+  height: 60vh;
+  background-image: linear-gradient( 359deg, rgb(21 21 23) 11.2%, rgb(60 98 17) 91.1% );
+}
+.planttxt {
+  width: 130vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(http://1.bp.blogspot.com/-JWVmPqzAzuE/TkYhlUb3iHI/AAAAAAAABz4/K37GdfV8f3E/s1600/wallpapers_jungle_hd_wallpapers.jpg) center;
+  font-size: xx-large;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+.plantvideo video {
+  object-fit: fill;
+  width: 92vw;
+  height: 28vh;
+  position: relative;
+  left: 20px;
+  border-radius: 13px;
+  border: none;
+  top: 8%;
+}
+.containernavarmour {
+  height: 10px;
+  width: 141%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.212);
+}
+.containernavarmour img {
+  position: absolute;
+  /* right: 48px; */
+  height: 32px;
+  top: 4.5px;
+  left: 132%;
+}
+.armour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-size: xxx-large;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  width: 144vw;
+}
+.armourproduct1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 66vh;
+  flex-wrap: wrap;
+  width: 151vw;
+}
+.flow {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  font: 30%;
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+  width: 148vw;
+}
+.flowcontainer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  width: 153vw;
+}
+.flowvideo video {
+  width: 93vw;
+  height: 31vh;
+  object-fit: cover;
+  border-radius: 8px;
+  left: 43%;
+}
+.flowcard {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  left: 1%;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.armourproduct2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 65vh;
+  width: 147vw;
+  flex-wrap: wrap;
+}
+.containernavzara img {
+  position: absolute;
+  
+  height: 32px;
+  left: 100%;
+  top: 4.5px;
+}
+.containernavzara {
+  height: 10px;
+  width: 106%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 5%);
+}
+.zaraproduct2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 65vh;
+  width: 110vw;
+  flex-wrap: wrap;
+}
+.zaraproduct1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 65vh;
+  width: 110vw;
+  flex-wrap: wrap;
+}
+.contrastimg img {
+  width: 53vw;
+  left: 20%;
+  position: relative;
+}
+.contrastcard {
+  position: relative;
+  background-color: black;
+  width: 350px;
+  height: 475px;
+  cursor: pointer;
+  transition-duration: 0,9s;
+}
+.zaraproduct3 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 63vh;
+  flex-wrap: wrap;
+  width: 111vw;
+}
+.Fila {
+  display: flex;
+  /* background-color: rgba(177, 179, 182, 0.302); */
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-size: xxx-large;
+  width: 114%;
+  font-family: 'Oswald', sans-serif;
+}
+.containernavfila img {
+  position: absolute;
+  /* right: 48px; */
+  height: 32px;
+  top: 4.5px;
+  left: 100%;
+}
+.containernavfila {
+  height: 10px;
+  width: 107%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 5%);
+}
+.filavideo video {
+  object-fit: cover;
+  height: 50vh;
+  width: 120vw;
+}
+.filaproducts1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 109vw;
+  justify-content: space-evenly;
+}
+.filaproducts2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 112vw;
+}
+.filaproducts3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 113vw;
+}
+.searchbox {
+  right: 10%;
+  position: relative;
+  top: 40%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+.searchbox p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 38px;
+  letter-spacing: 15px;
+  font-size: larger;
+}
+.list {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  color: aliceblue;
+  width: 77%;
+  font-family: 'Oswald', sans-serif;
+}
+#categories {
+  display: flex;
+  flex-flow: wrap;
+  width: 94vw;
+  justify-content: space-evenly;
+}
+
+.containernavpuma {
+  height: 10px;
+  width: 122%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgba(130, 127, 127, 0.26);
+}
+.containernavpuma img {
+  left: 111%;
+  position: absolute;
+  height: 32px;
+  top: 4.5px;
+}
+.futurevideocontainer {
+  display: flex;
+  background-color: black;
+  width: 128vw;
+}
+.futurevideo video {
+  object-fit: cover;
+  width: 77vw;
+  height: 58vh;
+}
+.comgsonbt button {
+  position: absolute;
+  left: 87%;
+  bottom: 55%;
+  height: 9vh;
+  width: 20vw;
+  font-size: xx-large;
+  background-color: #36456e00;
+  border: white;
+  color: white;
+  transition-duration: 0.6s;
+  cursor: pointer;
+}
+.pumaproduct1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 64vh;
+  background-color: black;
+  width: 129vw;
+}
+.pumaproduct2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 65vh;
+  background-color: black;
+  width: 130vw;
+}
+.future13container {
+  display: flex;
+  width: 129vw;
+  background-color: rgb(0, 0, 0);
+  height: 67vh;
+}
+.future13video video {
+  object-fit: cover;
+  width: 55vw;
+  height: 50vh;
+  position: relative;
+  left: 20px;
+  border-radius: 13px;
+  border: none;
+  top: 78px;
+}
+.future13card {
+  left: 104px;
+  position: relative;
+  width: 300px;
+  background-image: linear-gradient(360deg, rgb(252 105 67) 26.8%, rgb(0 0 0) 64%);
+  height: 380px;
+  border-radius: 8px;
+  cursor: pointer;
+  top: 199px;
+}
+.Puma {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 133vw;
+  font-size: xxx-large;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+.versaceproduct2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 63vh;
+  width: 111vw;
+}
+.versaceproduct1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 62vh;
+  width: 111vw;
+}
+.Versa {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 114%;
+  font-size: xxx-large;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+}
+.containernavversa {
+  height: 10px;
+  width: 106%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgba(130, 127, 127, 0.26);
+}
+.containernavversa img {
+  position: absolute;
+  height: 32px;
+  left: 101%;
+  top: 4.5px;
+}
+.containernavversa {
+  height: 10px;
+  width: 106%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgba(130, 127, 127, 0.26);
+}
+   }
+
+  
+  
+ 
