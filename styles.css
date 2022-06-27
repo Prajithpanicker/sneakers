@@ -3081,6 +3081,39 @@ font-family: 'Shadows Into Light', cursive;
   height: 64vh;
 }
 
+.list {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  color: aliceblue;
+  width: 90%;
+  font-family: 'Oswald', sans-serif;
+}
+.searchbox {
+  right: 0%;
+  position: relative;
+  top: 40%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+.nlogo {
+  backdrop-filter: blur(10px);
+  background-color: white;
+  margin: 9px;
+  width: 152px;
+  height: 203px;
+  border-radius: 8px;
+  left: 31px;
+  position: relative;
+}
+#categories {
+  display: flex;
+  flex-flow: wrap;
+  width: 94vw;
+  justify-content: space-evenly;
+}
+
+
 
    }
   
