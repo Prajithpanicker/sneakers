@@ -3113,7 +3113,12 @@ font-family: 'Shadows Into Light', cursive;
   justify-content: space-evenly;
 }
 
-
+.containernavnike img {
+  position: absolute;
+  right: 17px;
+  height: 32px;
+  top: 6.5px;
+}
 
    }
   
