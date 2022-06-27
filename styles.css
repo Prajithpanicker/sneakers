@@ -3119,6 +3119,118 @@ font-family: 'Shadows Into Light', cursive;
   height: 32px;
   top: 6.5px;
 }
+     .reebokproducts1 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 82vh;
+  flex-wrap: wrap;
+  width: 120vw;
+}
+.rebookimgbx1 img {
+  position: absolute;
+  width: 174px;
+  top: 5%;
+  left: 5%;
+  transition-duration: 0.1s;
+  transform: scale(1.2);
+}
+.reebookcntnbx1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: small;
+  position: absolute;
+  color: black;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  bottom: 5px;
+  left: -1%;
+}
+.reebokcards1 {
+  cursor: pointer;
+  position: relative;
+  width: 195px;
+  height: 299px;
+  border-radius: 8px;
+  transition-duration: 0.6s;
+  background-color: rgb(0 0 0 / 16%);
+  right: 9%;
+}
+.rebook {
+  display: flex;
+  /* background-color: rgba(177, 179, 182, 0.302); */
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-size: xxx-large;
+  font-family: 'Shadows Into Light', cursive;
+  width: 108vw;
+}
+.containernavrebook img {
+  position: absolute;
+  height: 32px;
+  top: 4.5px;
+  left: 90%;
+}
+.containernavrebook {
+  height: 10px;
+  width: 94%;
+  padding: 15px;
+  z-index: 1;
+  background-color: rgb(0 0 0 / 5%);
+}
+.reebokproducts2 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 82vh;
+  flex-wrap: wrap;
+  width: 120vw;
+}
+.rebookimgbx2 img {
+  position: absolute;
+  width: 174px;
+  top: 5%;
+  left: 5%;
+  transition-duration: 0.1s;
+  transform: scale(1.2);
+}
+.reebokcards2 {
+  cursor: pointer;
+  position: relative;
+  width: 181px;
+  height: 303px;
+  border-radius: 8px;
+  transition-duration: 0.6s;
+  background-color: rgb(0 0 0 / 16%);
+  right: 7%;
+}
+.planttxt {
+  width: 103vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(http://1.bp.blogspot.com/-JWVmPqzAzuE/TkYhlUb3iHI/AAAAAAAABz4/K37GdfV8f3E/s1600/wallpapers_jungle_hd_wallpapers.jpg) center;
+  font-size: xx-large;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 900;
+  color: white;
+}
+.plantcard {
+  position: relative;
+  width: 325px;
+  height: 279px;
+  border-radius: 8px;
+  cursor: pointer;
+  top: 45%;
+  transition-duration: 0.5s;
+  left: -48%;
+}
+.plantimg img {
+  width: 116px;
+  top: 23%;
+  left: 13%;
+  position: absolute;
+}
 
    }
   
