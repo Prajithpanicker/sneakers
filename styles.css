@@ -3309,6 +3309,16 @@ font-family: 'Shadows Into Light', cursive;
   left: 5%;
   transition-duration: 0.4s;
 }
+     .armourcard2 {
+  top: 10px;
+  cursor: pointer;
+  position: relative;
+  width: 184px;
+  height: 265px;
+  border-radius: 8px;
+  transition-duration: 0.6s;
+  background-color: rgb(0, 0, 0);
+}
    }
   
   
